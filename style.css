@@ -1,0 +1,288 @@
+
+
+body {
+  padding: 0px;
+  margin: 0px;
+background-color: rgb(25, 16, 1);
+} 
+
+ .container-fluid {
+  padding: 0px !important;
+} 
+ .container{
+  padding: opx !important;
+  margin: opx !important;
+} 
+
+ .appleimg {
+  display: none;
+  color: silver;
+}  
+
+.nav-link {
+  color: silver !important;
+}
+
+
+/* .ipod img{
+  height: 30em;
+  width: 20em;
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  margin-top: 6rem;
+}
+.ipod{
+  text-align: center;
+} */
+/* 
+.img-hand img{
+  width: 100%;
+  height: 85vh;
+  object-fit: cover;
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+}
+.img-hand{
+  position: relative;
+}
+.S2abc{
+  position: absolute;
+/* }  
+ .editor{
+  
+  height: 600px;
+  width: 100%;
+  background-color: hsl(0, 0%, 90%);
+ */
+
+
+/* .editor img{ */
+  /* margin-left: 15rem;
+  margin-top: 14rem;
+  padding-left: 2rem; */
+/* 
+  max-width: 100%;
+}  */
+/* 
+.Simg{
+  height: 89rem !important;
+} */
+
+
+
+ 
+@media only screen and (max-width: 990px) {
+  .appleimg {
+    display: initial;
+  }
+}
+.c-img{
+height: 100%;
+object-fit: cover;
+filter: brightness(0.6);
+
+}
+.c-item{
+  height: 550px;
+}
+
+.FS{
+  font-size: 12px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -.01em;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+  color: #6e6e73;
+}
+.FL{
+  text-decoration: none;
+  font-size: 13px;
+}
+.FL:hover{
+  text-decoration: underline;
+}
+.FA{
+  color:  #6e6e73;
+}
+.LI{
+  text-decoration: none;
+}
+.FAS{
+  display: flex;
+  align-items: center;
+}
+.FC a{
+  text-decoration: none;
+   font-size:  13px;
+}
+.FC :hover{
+  color: rgb(26, 3, 3);
+  
+}
+.FK{
+  color: #6e6e73;
+  font-size: 12px;
+}
+.Foot{
+  background-color:#f5f5f7;
+}
+/*  
+@media only screen and (max-width: 990px) {
+  .FK {
+    font-size: 0px;
+  }
+} */
+/* .para1{
+  
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #fff;
+    color: #1d1d1f;
+    font-style: normal;
+} */
+.overlay-card-wrapper{
+ position: absolute;
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100%;
+height: -webkit-fill-available;
+
+}
+.overlay-card-sub-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20rem;
+}
+.overlay-card-title{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.overlay-card-desc{
+  text-align: center;
+  font-size: 15px;
+}
+.card{
+  border: 0px !important;
+}
+
+ 
+@media only screen and (max-width: 734px) {
+  .overlay-card-wrapper{
+    
+    position: static ;
+    
+  }
+  .overlay-card-sub-wrapper{
+    margin-left: 0rem ;
+  }
+}
+
+/* .St{
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  background-color: #fff;
+  color: #1d1d1f;
+  
+} */
+ .St{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 5rem;
+}
+ .Sd{
+  text-align: center;
+  font-size: 15px;
+}
+ @media only screen and (max-width: 1030px) {
+  .St{
+   text-align: start;
+   font-size: 40px;
+    padding-top:3em;
+    padding-left: 2em;
+  }
+  .Sd{
+    font-size: 15px;
+    text-align: start;
+    margin-left: 0rem;
+    padding-left: 5.5em;
+  }
+} 
+@media only screen and (max-width: 550px) {
+  .St{
+   text-align: start;
+   font-size: 25px;
+    padding-top:0;
+    padding-left: 0;
+  }
+  .Sd{
+    font-size: 12px;
+    text-align: start;
+    margin-left: 0rem;
+    padding-left: 0em;
+  }
+} 
+.Bt{
+  padding-top: 15rem;
+  padding-left: 8rem;
+  font-size: 40px;
+  font-weight: bold;
+}
+.Bd{
+  
+  padding-left: 8rem;
+  font-size: 19px;
+}
+@media only screen and (max-width: 1030px) {
+  .Bt{
+    padding-top: 6rem;
+    padding-left: 4rem;
+    font-size: 40px ;
+  }
+  .Bd{
+   padding-left: 4rem;
+   font-size:19px ;
+  }
+}
+ @media only screen and (max-width: 850px) {
+  .Bt{
+    padding-top: 6rem;
+    padding-left: 3rem;
+    font-size: 38px ;
+  }
+  .Bd{
+   padding-left: 3rem;
+   font-size:18px ;
+  }
+} 
+@media only screen and (max-width: 550px) {
+  .Bt{
+    padding-top: 0;
+    padding-left: 0;
+    font-size: 20px ;
+  }
+  .Bd{
+   padding-left: 0;
+   font-size:10px ;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .card-text{
+   display: none !important;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .F10 p{
+   display: none !important;
+  }
+}
